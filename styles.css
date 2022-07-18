@@ -1,0 +1,105 @@
+* {
+    font-family: 'Red Hat Display', Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+}
+.card {
+    width: 400px;
+    margin: 70px auto 10px auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.hero-image {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+h2 {
+    color: hsl(223, 47%, 23%);
+    margin-top: 18px;
+    margin-bottom: 8px;
+    align-self: center;
+}
+.summary {
+    color: hsl(224, 23%, 55%);
+    font-size: 1rem;
+    text-align: center;
+    padding: 0px 35px;
+}
+.payment-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6%;
+}
+.subscription-plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.plan-pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.plan-type {
+    color: hsl(223, 47%, 23%);
+    font-size: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.price {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    color: hsl(224, 23%, 55%);
+}
+.music-icon {
+    height: 40px;
+}
+.payment-section a {
+    color: hsl(223, 47%, 23%);
+    font-size: 1rem;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.call-to-action {
+    color: white;
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    transition: .2s;
+}
+.call-to-action:hover {
+    background-color: hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+.secondary-button {
+    color: hsl(224, 23%, 55%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+.secondary-button:hover {
+    color: hsl(223, 47%, 23%);
+}
+@media screen and (max-width: 540px) {
+    .card {
+        width: 80vw;
+    }
+}
